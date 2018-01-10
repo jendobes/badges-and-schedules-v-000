@@ -9,7 +9,7 @@ end
 array = [Larry, Jessica]
 def assign_rooms (array)
   newarray = []
-  array.each_with_index {|name, room| newarray << "Hello #{name}! You'll be assigned to room #{room+1}!" }
+  array.each_with_index {|name, room| newarray << "Hello, #{name}! You'll be assigned to room #{room+1}!" }
   return newarray
 end
 
